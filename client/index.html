@@ -2,20 +2,39 @@
 <html lang="en" ng-app>
   <head>
     <title>Shorten URL</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ShortenUrl FCC Challenge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ady">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
-      body {
-        padding-top: 60px;
-      }
+
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      <img src="./client/fcc" alt="freecodecamp">
+      <img src="./client/git" alt="github">
+      <p><a href="#"> <i class="fa fa-envelope fa-fw"></i></a>
+        <a href="#" target="_blank"> <i class="fa fa-github fa-fw"></i></a>
+        <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
+        <a href="#" target="_blank"> <i class="fa fa-codepen"></i></a>
+        <a href="#" target="_blank"> <i class="fa fa-wordpress"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-fire fa-fw"></i></a></p>
+      <h1 class="header text-center">FreeCodeCamp Challenge: URL Shortener Microservice</h1>
+      
+		<h3>Example API Endpoint:</h3>
+		<code>https://little-url.herokuapp.com/new/www.google.com</code>
+		<br>
+		
+		<h3>Example output</h3>
+      <code>https://little-url.herokuapp.com/new/101</code>
+      <p>
+        Now you can use the shortened url to search on google
+      </p>
     </div>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
     
   </body>
 </html>
